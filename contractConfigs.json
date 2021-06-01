@@ -387,30 +387,33 @@
     },
     "currencyName":"mMatic",
     "explorerUrl":{
-      "tx":"https://goerli.etherscan.io/tx/",
-      "address":"https://goerli.etherscan.io/address/"
+      "tx":"https://explorer-mumbai.maticvigil.com/tx/",
+      "address":"https://explorer-mumbai.maticvigil.com/address/"
     },
     "merkleTreeHeight":20,
     "merkleTreeFarmerHeight":20,
     "emptyElement":"21663839004416932945382355908790599225266501822907911457504978515578255421292",
-    "networkName":"Matic Mumbai",
-    "deployedBlock":13732404,
+    "networkName":"Matic-Mumbai",
+    "deployedBlock":14358483,
     "echoContract":"0xDe4329E2BC7730D898EF70B3aea2405AC2fD544D",
     "echoContractAccount":"0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65",
     "aggregatorContract":"0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2",
     "rpcUrls":{
       "MaticVigil":{
         "name":"Matic Vigil",
-        "url":"https://rpc-mainnet.maticvigil.com"
+        "url":"https://polygon-mumbai.infura.io/v3/fa97b80e401e47b1b6bbb7c405d1168c"
       }
     },
     "tokens":{
       "eth":{
         "mixerAddress":{
-          "1":"0x041A7205EAEeD1ED9876BF42C5B7E239b9612560",
-          "10":"0xcA3f7CaeeeA3C2D2ae68EE7bC5DB82B854aFF039",
-          "100":"0x4b4cA3f276fb851f0A915D00cEcFe415aa48C91B",
-          "0.1":"0xad65DDFB89Eca135aEE09cffea82F322cdd35F98"
+          "1":"0x4f5BdAB49AeB45Ef1Fac8d8E74FC0E696348Aa96",
+          "10":"0x74197751EbfFC7134647dF16B8fFf74e6Cde80de",
+          "100":"0x49A76E6182E304805b938984e9B169A137D26898",
+          "1000":"0xBeEbB17685cf58C320bF53fcB76744F1A5147c91",
+          "10000":"0xe806dB7803FFBfd862E4f558b333421717B2a5ed",
+          "100000":"0x39a588Ed26D5a1832681332E1c0B96C4cb040EE2",
+          "0.1":"0x0A5B0414b3c190a50cd6a6c77bf84DA6170fE751"
         },
         "miningEnabled":false,
         "symbol":"MATIC",
@@ -423,7 +426,7 @@
           "10000":"0xD5d6f8D9e784d0e26222ad3834500801a68D027D",
           "100000":"0x407CcEeaA7c95d2FE2250Bf9F2c105aA7AAFB512"
         },
-        "miningEnabled":true,
+        "miningEnabled":false,
         "tokenAddress":"0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60",
         "symbol":"DAI",
         "decimals":18,
@@ -436,7 +439,7 @@
           "500000":"0x8281Aa6795aDE17C8973e1aedcA380258Bc124F9",
           "5000000":"0x57b2B8c82F065de8Ef5573f9730fC1449B403C9f"
         },
-        "miningEnabled":true,
+        "miningEnabled":false,
         "tokenAddress":"0x822397d9a55d0fefd20F5c4bCaB33C5F65bd28Eb",
         "symbol":"cDAI",
         "decimals":8,
@@ -475,20 +478,22 @@
           "100":"",
           "0.1":"0x242654336ca2205714071898f67E254EB49ACdCe"
         },
-        "miningEnabled":true,
+        "miningEnabled":false,
         "tokenAddress":"0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05",
         "symbol":"WBTC",
         "decimals":8,
         "gasLimit":"85000"
       }
     },
-    "relayers":{},
-    "pollInterval":200,
+    "relayers":{
+
+    },
+    "pollInterval":20000,
     "constants":{
       "PROPOSAL_THRESHOLD":"1000000000000000000000",
-      "TREES_DEPLOYMENT_BLOCK":13732404,
+      "TREES_DEPLOYMENT_BLOCK":14358483,
       "TREES_UPDATED_BLOCK":13732404,
-      "ENABLED_ERC20_MINING":13732404,
+      "ENABLED_ERC20_MINING":19732404,
       "NOTE_ACCOUNT_BLOCK":13732404,
       "EXECUTION_DELAY":1200000,
       "EXECUTION_EXPIRATION":7200000,
@@ -498,8 +503,139 @@
     "torn.contract.tornadocash.eth":"0x77777FeDdddFfC19Ff86DB637967013e6C6A116C",
     "governance.contract.tornadocash.eth":"0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
     "reward-swap.contract.tornadocash.eth":"0x5cab7692D4E94096462119ab7bF57319726Eed2A",
-    "tornado-proxy.contract.tornadocash.eth":"0x181F5F6B148aF118e20eefBb4c0C9C1B4aA1c4fa",
-    "tornado-trees.contract.tornadocash.eth":"0x722122df12d4e14e13ac3b6895a86e84145b6967",
+    "tornado-proxy.contract.tornadocash.eth":"0xee0e59B237F3845f55305c60431268e938e85903",
+    "tornado-trees.contract.tornadocash.eth":"0x2d2006ee7A45D09d070Ae4Cb8AE78718453d29c5",
+    "mining-v2.contract.tornadocash.eth":"0x746Aebc06D2aE31B71ac51429A19D54E797878E9",
+    "voucher.contract.tornadocash.eth":"0x3eFA30704D2b8BBAc821307230376556cF8CC39e"
+  },
+  "netId137":{
+    "rpcCallRetryAttempt":15,
+    "gasPrices":{
+      "instant":10,
+      "fast":5,
+      "standard":2,
+      "low":1
+    },
+    "currencyName":"Matic",
+    "explorerUrl":{
+      "tx":"https://explorer-mainnet.maticvigil.com/tx/",
+      "address":"https://explorer-mainnet.maticvigil.com/address/"
+    },
+    "merkleTreeHeight":20,
+    "merkleTreeFarmerHeight":20,
+    "emptyElement":"21663839004416932945382355908790599225266501822907911457504978515578255421292",
+    "networkName":"Matic",
+    "deployedBlock":15212666,
+    "echoContract":"0xDe4329E2BC7730D898EF70B3aea2405AC2fD544D",
+    "echoContractAccount":"0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65",
+    "aggregatorContract":"0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2",
+    "rpcUrls":{
+      "Matic Infura":{
+        "name":"Matic Infura",
+        "url":"https://polygon-mainnet.infura.io/v3/fa97b80e401e47b1b6bbb7c405d1168c"
+      }
+    },
+    "tokens":{
+      "eth":{
+        "mixerAddress":{
+          "1":"0xBeEbB17685cf58C320bF53fcB76744F1A5147c91",
+          "10":"0xe806dB7803FFBfd862E4f558b333421717B2a5ed",
+          "100":"0x39a588Ed26D5a1832681332E1c0B96C4cb040EE2",
+          "1000":"0xD6c2DAe6dd82C8a7725b492610B1D7A6857466A9",
+          "10000":"0x95b66Cc90Bc92b924F57a78Bd8372603BfF3b1AC",
+          "100000":"0xaeC5E52694027C6F986E396c1dF12072fCbc15B1",
+          "0.1":"0x49A76E6182E304805b938984e9B169A137D26898"
+        },
+        "miningEnabled":false,
+        "symbol":"MATIC",
+        "decimals":18
+      },
+      "dai":{
+        "mixerAddress":{
+          "100":"0x76D85B4C0Fc497EeCc38902397aC608000A06607",
+          "1000":"0xCC84179FFD19A1627E79F8648d09e095252Bc418",
+          "10000":"0xD5d6f8D9e784d0e26222ad3834500801a68D027D",
+          "100000":"0x407CcEeaA7c95d2FE2250Bf9F2c105aA7AAFB512"
+        },
+        "miningEnabled":false,
+        "tokenAddress":"0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60",
+        "symbol":"DAI",
+        "decimals":18,
+        "gasLimit":"55000"
+      },
+      "cdai":{
+        "mixerAddress":{
+          "5000":"0x833481186f16Cece3f1Eeea1a694c42034c3a0dB",
+          "50000":"0xd8D7DE3349ccaA0Fde6298fe6D7b7d0d34586193",
+          "500000":"0x8281Aa6795aDE17C8973e1aedcA380258Bc124F9",
+          "5000000":"0x57b2B8c82F065de8Ef5573f9730fC1449B403C9f"
+        },
+        "miningEnabled":false,
+        "tokenAddress":"0x822397d9a55d0fefd20F5c4bCaB33C5F65bd28Eb",
+        "symbol":"cDAI",
+        "decimals":8,
+        "gasLimit":"425000"
+      },
+      "usdc":{
+        "mixerAddress":{
+          "100":"0x05E0b5B40B7b66098C2161A5EE11C5740A3A7C45",
+          "1000":"0x23173fE8b96A4Ad8d2E17fB83EA5dcccdCa1Ae52",
+          "10000":"",
+          "100000":""
+        },
+        "miningEnabled":false,
+        "tokenAddress":"0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C",
+        "symbol":"USDC",
+        "decimals":6,
+        "gasLimit":"80000"
+      },
+      "usdt":{
+        "mixerAddress":{
+          "100":"0x538Ab61E8A9fc1b2f93b3dd9011d662d89bE6FE6",
+          "1000":"0x94Be88213a387E992Dd87DE56950a9aef34b9448",
+          "10000":"",
+          "100000":""
+        },
+        "miningEnabled":false,
+        "tokenAddress":"0xb7FC2023D96AEa94Ba0254AA5Aeb93141e4aad66",
+        "symbol":"USDT",
+        "decimals":6,
+        "gasLimit":"100000"
+      },
+      "wbtc":{
+        "mixerAddress":{
+          "1":"0x776198CCF446DFa168347089d7338879273172cF",
+          "10":"0xeDC5d01286f99A066559F60a585406f3878a033e",
+          "100":"",
+          "0.1":"0x242654336ca2205714071898f67E254EB49ACdCe"
+        },
+        "miningEnabled":false,
+        "tokenAddress":"0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05",
+        "symbol":"WBTC",
+        "decimals":8,
+        "gasLimit":"85000"
+      }
+    },
+    "relayers":{
+
+    },
+    "pollInterval":20000,
+    "constants":{
+      "PROPOSAL_THRESHOLD":"1000000000000000000000",
+      "TREES_DEPLOYMENT_BLOCK":15212666,
+      "TREES_UPDATED_BLOCK":13732404,
+      "ENABLED_ERC20_MINING":19212666,
+      "NOTE_ACCOUNT_BLOCK":13732404,
+      "EXECUTION_DELAY":1200000,
+      "EXECUTION_EXPIRATION":7200000,
+      "MINING_BLOCK_TIME":15000,
+      "QUORUM_VOTES":"10000000000000000000000"
+    },
+    "torn.contract.tornadocash.eth":"0x77777FeDdddFfC19Ff86DB637967013e6C6A116C",
+    "governance.contract.tornadocash.eth":"0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
+    "reward-swap.contract.tornadocash.eth":"0x5cab7692D4E94096462119ab7bF57319726Eed2A",
+    "tornado-proxy.contract.tornadocash.eth":"0x124Bf82EF2CDbbe9f05977058A33E8fb759a6370",
+    "tornado-trees.contract.tornadocash.eth":"0x4FE32aCe04F78D29129fcCA2e7831194B1E3133f",
     "mining-v2.contract.tornadocash.eth":"0x746Aebc06D2aE31B71ac51429A19D54E797878E9",
     "voucher.contract.tornadocash.eth":"0x3eFA30704D2b8BBAc821307230376556cF8CC39e"
   }
