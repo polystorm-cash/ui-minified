@@ -4399,7 +4399,7 @@
 
 
                                             case 25:
-                                                debugger
+
                                                 // ASSUME VALID
                                                 if (true) {
                                                     n.next = 28;
@@ -4626,7 +4626,7 @@
                                                     indexName: "commitment"
                                                 });
                                             case 6:
-                                                debugger
+                                                
                                                 if(t.netId !== "80001" || t.netId !== "137"){
                                                     if (y = n.sent) {
                                                         n.next = 15;
