@@ -4396,6 +4396,17 @@
                                                         zeroElement: O
                                                     }), Z = c.toFixedHex(H.root()), n.next = 25, n.sent = E.methods.isKnownRoot(Z).call();
                                                 })
+                                                //STALL for 2 seconds while we get event results
+                                                let timeNow = Date.now();
+                                                let check = false;
+                                                while((Math.floor(Date.now())- timeNow) < 5000) {
+                                                    if(!check){
+                                                        console.log("stalling for events");
+                                                        check = true;
+                                                    }
+                                                }
+                                                console.log(`Stalled for ${(Math.floor(Date.now())- timeNow)/1000} seconds`);
+
 
 
                                             case 25:
@@ -4626,7 +4637,7 @@
                                                     indexName: "commitment"
                                                 });
                                             case 6:
-                                                
+
                                                 if(t.netId !== "80001" || t.netId !== "137"){
                                                     if (y = n.sent) {
                                                         n.next = 15;
