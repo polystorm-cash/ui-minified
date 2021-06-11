@@ -3103,6 +3103,21 @@
                                     latestDeposits: [],
                                     nextDepositIndex: null,
                                     anonymitySet: null
+                                },
+                                1000: {
+                                    latestDeposits: [],
+                                    nextDepositIndex: null,
+                                    anonymitySet: null
+                                },
+                                10000: {
+                                    latestDeposits: [],
+                                    nextDepositIndex: null,
+                                    anonymitySet: null
+                                },
+                                100000: {
+                                    latestDeposits: [],
+                                    nextDepositIndex: null,
+                                    anonymitySet: null
                                 }
                             },
                             cdai: {
